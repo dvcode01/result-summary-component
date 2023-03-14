@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results summary component | Frontend Mentor</title>
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="component">
+        <!-- results content -->
+        <section class="results">
+            <h2 class="results__title">Your Result</h2>
+
+            <div class="results__circle">
+                <span class="results__number">76</span>
+                <span class="results__percentage">of 100</span>
+            </div>
+            
+            <h3 class="results__great">Great</h3>
+            <p class="results__paragraph">You scored higher than 65% of the people who have taken these tests.</p>
+        </section>
+
+        <!-- summary content -->
+        <section class="summary">
+            <h2 class="summary__title">Summary</h2>
+            <section class="summary__badges">
+                <!-- badge 1 -->
+                <div class="summary__badge summary__badge--reaction">
+                    <div class="summary__content">
+                        <img src="assets/svg/icon-reaction.svg" alt="reaction" class="summary__img">
+                        <h3 class="summary__subtitle">Reaction</h3>
+                    </div>
+                    <div class="summary__numbers">
+                        <p class="summary__percentage"><span class="summary__span">80</span> / 100</p>
+                    </div>
+                </div>
+
+                <!-- badge 2 -->
+                <div class="summary__badge summary__badge--memory">
+                    <div class="summary__content">
+                        <img src="assets/svg/icon-memory.svg" alt="memory" class="summary__img">
+                        <h3 class="summary__subtitle">Memory</h3>
+                    </div>
+                    <div class="summary__numbers">
+                        <p class="summary__percentage"><span class="summary__span">92</span> / 100</p>
+                    </div>
+                </div>
+
+                <!-- badge 3 -->
+                <div class="summary__badge summary__badge--verbal">
+                    <div class="summary__content">
+                        <img src="assets/svg/icon-verbal.svg" alt="verbal" class="summary__img">
+                        <h3 class="summary__subtitle">Verbal</h3>
+                    </div>
+                    <div class="summary__numbers">
+                        <p class="summary__percentage"><span class="summary__span">61</span> / 100</p>
+                    </div>
+                </div>
+
+                <!-- badge 4 -->
+                <div class="summary__badge summary__badge--visual">
+                    <div class="summary__content">
+                        <img src="assets/svg/icon-visual.svg" alt="visual" class="summary__img">
+                        <h3 class="summary__subtitle">Visual</h3>
+                    </div>
+                    <div class="summary__numbers">
+                        <p class="summary__percentage"><span class="summary__span">72</span> / 100</p>
+                    </div>
+                </div>
+            </section>
+            <button class="summary__btn">Continue</button>
+        </section>
+    </main>
+</body>
+</html>
